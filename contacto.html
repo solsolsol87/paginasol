@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> MARISOL BELLUSCI | Home </title>
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+
+  <header class="bg-dark-green text-center py-4">
+    <div class="container">
+      <h1>MARISOL BELLUSCI</h1>
+      <nav class="nav justify-content-center">
+        <a class="nav-link text-black" href="./index.html">Home</a>
+        <a class="nav-link text-black" href="./performance.html">Performance</a>
+        <a class="nav-link text-black" href="./videoarte.html">Videoarte</a>
+        <a class="nav-link text-black" href="./galeria.html">Galería</a>
+        <a class="nav-link text-black" href="./contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container-fluid d-flex justify-content-center p-5">
+    <div class="card p-4 shadow-lg" style="max-width: 500px; width: 100%;">
+      <h2>Contactar a Sol</h2>
+      <form id="contactForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Número de teléfono:</label>
+            <input type="text" class="form-control" id="phone" required>
+          </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="message" rows="6" required></textarea>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-success" style="width: 150px;">Enviar</button>
+          </div>
+          <div class=" mt-4">
+            <pre>
+
+            </pre>
+          </div>
+      </form>
+      <p id="error-message" class="text-danger mt-3" style="display: none;">Por favor ingresa un email válido.</p>
+    </div>
+  </main>
+
+  <footer class="bg-dark-green text-black text-center py-4">
+    <div class="container">
+      <p>&copy; 2024 tobias flores y marisol bellusci</p>
+    </div>
+  </footer>
+<script src="./js/contact.js" ></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
