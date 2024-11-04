@@ -1,0 +1,55 @@
+header {
+    text-align: center;
+    background: rgb(0, 0, 0); 
+    padding-top: 10px;
+    margin: 20px;
+}
+
+a {
+    display: inline-block;
+    font-size: 1em ;
+    line-height: 1 em;
+    padding-bottom: 0,1 em;
+    text-align: center;
+
+}
+
+
+a:link {
+  background-color: rgb(156, 187, 170);
+}
+
+a:visited {
+  background-color: rgb(97, 17, 226);
+  color: black;
+}
+
+a:hover {
+  background-color: lightgreen;
+  color: rgb(19, 33, 235);
+}
+
+a:active {
+  background-color: whitesmoke;
+  color:darkred;
+} 
+
+nav ul {
+    list-style-type: none; 
+    padding: 1;
+    display: flex; 
+    margin: 10px 10px 10px 50px;
+}
+
+
+nav ul li {
+    margin-right: 40px; 
+    color: red;  
+    text-align: center;
+} 
+
+nav ul li a {
+    text-decoration: none; 
+    color: #005; 
+    text-align: center;
+}
