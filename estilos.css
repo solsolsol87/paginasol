@@ -88,3 +88,17 @@ img, video {
   max-width: 100%;
   height: auto;
 }
+
+body {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1, h2, p{
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700; /* Estilo negrita */
+}
+
+nav a {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+}
