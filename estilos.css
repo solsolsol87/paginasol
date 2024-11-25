@@ -1,22 +1,37 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+body{
+  height: 100vh;
+}
+
+
+footer{
+  height: 10%;
+}
+
 header {
     text-align: center;
     background: rgb(0, 0, 0); 
-    padding-top: 10px;
-    margin: 20px;
+    padding: 10px;
+    
+   /* margin: 5px;*/
+    height: 20%;
 }
 
 a {
     display: inline-block;
     font-size: 1em ;
-    line-height: 1 em;
-    padding-bottom: 0,1 em;
+    line-height: 1em;
+    padding-bottom: 0.1em;
     text-align: center;
 
 }
 
 
 a:link {
-  background-color: rgb(156, 187, 170);
+  background-color: rgb(220, 170, 248);
 }
 
 a:visited {
@@ -25,7 +40,7 @@ a:visited {
 }
 
 a:hover {
-  background-color: lightgreen;
+  background-color: rgb(220, 172, 243);
   color: rgb(19, 33, 235);
 }
 
@@ -52,4 +67,24 @@ nav ul li a {
     text-decoration: none; 
     color: #005; 
     text-align: center;
+}
+
+header {
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+  header {
+      padding: 10px;
+      font-size: 18px;
+      text-align: center;
+  }
+
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
 }
